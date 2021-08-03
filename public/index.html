@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="contacts">
+            <i class="fas fa-user-plus fa-2x"></i>
+            <h2>Contacts</h2>
+            <!-- <div class="contact">
+                <div class="pic monkey"></div>
+                <div class="badge">14</div>
+                <div class="name">CoCo</div>
+                <div class="message">Hi.How are u</div>
+            </div> -->
+            <!-- <div class="contact">
+                <div class="pic userB"></div>
+                <div class="badge">14</div>
+                <div class="name">CoCo</div>
+                <div class="message">Hi.How are u</div>
+            </div>
+            <div class="contact">
+                <div class="pic userB"></div>
+                <div class="badge">14</div>
+                <div class="name">CoCo</div>
+                <div class="message">Hi.How are u</div>
+            </div> -->
+        </div>
+        <div class="chat">
+            <div class="contact bar">
+                <!-- <div class="pic monkey"></div>
+                <div class="name">JoJo</div>
+                <div class="seen">Today at 12:56</div> -->
+            </div>
+            <div id="chat" class="messages">
+                <!-- <div class="time">Today at 11:41</div> -->
+                <!-- <div class="message userA">Hey, man! What's up, Mr userB? 👋</div>
+                <div class="message userB">Kid, where'd you come from? </div>
+                <div class="message userA">Field trip! 🤣</div>
+                <div class="message userA">Uh, what is this guy's problem, Mr. userB? 🤔</div>
+                <div class="message userB">Uh, he's from space, he came here to steal a necklace from a wizard.</div>
+                <div class="message userB">
+                    <div class="typing typing-1"></div>
+                    <div class="typing typing-2"></div>
+                    <div class="typing typing-3"></div>
+                </div> -->
+            </div>
+            <div class="input">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-sign-out-alt"></i>
+                <input type="text" class="input-text" placeholder="Type your message here!">
+                <i class="fas fa-paper-plane"></i>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

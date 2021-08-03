@@ -1,0 +1,35 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "node-sass views/css/index.scss views/css/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@withvoid/make-validation": "^1.0.5",
+    "cors": "^2.8.5",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1",
+    "express-ejs-extend": "0.0.1",
+    "firebase": "^8.6.7",
+    "firebase-admin": "^9.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.0",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "nodemon": "^2.0.7",
+    "sass-lint": "^1.13.1"
+  }
+}
